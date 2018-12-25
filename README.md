@@ -2,7 +2,6 @@
 tf2 cheat with awful aimbot
 
 this is a tf2 cheat i was pasting a while ago.
-note, that only some sdk shit has been pasted, the shitty esp and aimbot are both mine. also all misc features and engine-engine-g glow.
 
 credits:
 josh33901 | (hes named emily33901 now, i assume he got transformed to a tranny furfag) | seglow shits.
