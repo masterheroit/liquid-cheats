@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameEvents.cpp">
+      <Filter>GameEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="DSDK.cpp">
+      <Filter>D3DDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Entrypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu_,cpp.cpp">
+      <Filter>Liquid\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="projectiles.cpp">
+      <Filter>Liquid\Features\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Liquid\Features\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Aim.cpp">
+      <Filter>Liquid\Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Liquid\Features\AntiAim</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking.cpp">
+      <Filter>Liquid\Features\Backtrack</Filter>
+    </ClCompile>
+    <ClCompile Include="Generals.cpp">
+      <Filter>Liquid\Features\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Liquid\Features\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoPanel.cpp">
+      <Filter>Liquid\Features\InfoPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Liquid\Features\Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Liquid\Features\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="contentbridge.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dsprite.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="strtools.cpp">
+      <Filter>Liquid\source_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Panels.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="texturemgr.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawManager.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasePlayer.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="LagCompensation.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="CSignature.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Prediction.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Netvars.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHooks.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="UtlTrace.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="LibAsm.cpp">
+      <Filter>Liquid\liquid_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="tiercloud.cpp">
+      <Filter>D3DDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>Liquid\global_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals_HL2DM.cpp">
+      <Filter>Liquid\Features\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="UTLDM.cpp">
+      <Filter>DMUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SEGlow.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="SSERG.cpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DSDK.hpp">
+      <Filter>D3DDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu_.hpp">
+      <Filter>Liquid\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="projectiles.hpp">
+      <Filter>Liquid\Features\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.hpp">
+      <Filter>Liquid\Features\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CbUtlMem.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CbUtlVec.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeclVec.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="cframe.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetChan.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="cstate.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrace.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvents.hpp">
+      <Filter>GameEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineServer.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChannel.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.h">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="studiohdr.hpp">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponList.h">
+      <Filter>Headers\source_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CBasePlayer.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawManager.h">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="contentbridge.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CSignature.h">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.hpp">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="LagCompensation.hpp">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="LAI.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="LCache.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPtr.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Netvars.hpp">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Panels.h">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="texturemgr.h">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlTrace.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooks.h">
+      <Filter>Headers\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Headers\global_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Aim.hpp">
+      <Filter>Liquid\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.hpp">
+      <Filter>Liquid\Features\AntiAim</Filter>
+    </ClInclude>
+    <ClInclude Include="Backtracking.hpp">
+      <Filter>Liquid\Features\Backtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="Generals.hpp">
+      <Filter>Liquid\Features\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.hpp">
+      <Filter>Liquid\Features\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoPanel.hpp">
+      <Filter>Liquid\Features\InfoPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.hpp">
+      <Filter>Liquid\Features\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dsprite.h">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.hpp">
+      <Filter>Liquid\Features\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="LibAsm.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Project Logs.h">
+      <Filter>Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK Logs.h">
+      <Filter>Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="tp_angle.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="baseincludes.hpp">
+      <Filter>Headers\global_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="NET_API.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="VTDumps.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UTLDM.hpp">
+      <Filter>DMUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SEGlow.hpp">
+      <Filter>Liquid\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="SEEMgr.hpp">
+      <Filter>Headers\global_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="resource6.h" />
+    <ClInclude Include="textureholder.hpp">
+      <Filter>Headers\liquid_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="client_renderable.hpp">
+      <Filter>Headers\global_sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{79b023fd-cbc8-41db-bfda-b06ff3b945f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{ee3b9d91-3034-4a26-9e87-e0edf043bdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DDraw">
+      <UniqueIdentifier>{33a50e23-3a33-45f9-b4fb-b8f416d1aefa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid">
+      <UniqueIdentifier>{a8c08570-d830-4509-9cae-65d913527a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features">
+      <UniqueIdentifier>{ca861530-15e0-42ba-a36d-140586202958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\Projectiles">
+      <UniqueIdentifier>{370af577-dcc6-4179-beb0-cd145615f0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\KeyMgr">
+      <UniqueIdentifier>{dc8dfa9d-794e-41aa-a75a-7b121c1a2b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvents">
+      <UniqueIdentifier>{bfbfec47-1c75-473b-8706-093d870aded8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\source_sdk">
+      <UniqueIdentifier>{f3c2926c-c4f7-45b5-8f47-0f18c759e745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\liquid_sdk">
+      <UniqueIdentifier>{cf445f9e-54de-4a4a-b685-d2ff163edce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\cheat">
+      <UniqueIdentifier>{f6754f3c-f743-40d9-8cc9-f7de2da922f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\global_sdk">
+      <UniqueIdentifier>{6a4ce04c-d4e9-410c-ad6a-efa75dfc866e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Menu">
+      <UniqueIdentifier>{8423a9c2-c8c4-4ab2-ac33-7451aa13e1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\Aimbot">
+      <UniqueIdentifier>{84b2b5f8-cb60-4bbd-aacb-784fe4cbbc90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\AntiAim">
+      <UniqueIdentifier>{25c6e937-8d5c-4717-af40-d4118e74030c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\Backtrack">
+      <UniqueIdentifier>{6c83d340-98b0-4136-9d22-1634b9e11160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\General">
+      <UniqueIdentifier>{baf2764f-6df6-425d-bfe2-a8aee712604b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\Glow">
+      <UniqueIdentifier>{e2935956-1f61-4460-a10d-13997c1aca8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\InfoPanel">
+      <UniqueIdentifier>{d8e34699-bf74-4285-81a0-3efac582fae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\Radar">
+      <UniqueIdentifier>{9dbfa5d9-0ef6-4e40-9f9c-6b99b0a2dbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\Features\Visual">
+      <UniqueIdentifier>{02fb5e95-d555-461d-80ec-a04c6656295f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\cheat">
+      <UniqueIdentifier>{5f50c196-4e63-437e-a46b-e016599487eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\liquid_sdk">
+      <UniqueIdentifier>{37e82b3c-982d-43e5-b2aa-3318276b74b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\source_sdk">
+      <UniqueIdentifier>{2829ed39-a1af-4bb4-b67d-c5d599c013c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logs">
+      <UniqueIdentifier>{a9b95d6a-70f3-4524-acba-2078e8dbc0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entrypoint">
+      <UniqueIdentifier>{7561bd3e-f399-43c0-80fd-202de503f606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Online">
+      <UniqueIdentifier>{efede80a-4867-4589-9f61-878528be2d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Liquid\global_sdk">
+      <UniqueIdentifier>{7dd332b9-2708-4707-aeb7-9cef0a7fc94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DMUtilities">
+      <UniqueIdentifier>{eeb77420-5602-49df-a639-847d6d2ea4b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Liquid.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lena_gray.raw" />
+  </ItemGroup>
+</Project>

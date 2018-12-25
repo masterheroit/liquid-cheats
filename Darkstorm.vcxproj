@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53348295-68AD-4FAE-8203-4B68A6C6A6E6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>basehook</RootNamespace>
+    <ProjectName>Liquid</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\mp\src\game\client\;C:\mp\src\common\;C:\local\boost_1_68_0\;C:\lua\;$(DXSDK_DIR)Include\;C:\mp\src\public\tier1\;C:\mp\src\public\tier0\;C:\mp\src\tier1\;C:\mp\src\;C:\mp\src\public\;C:\mp\;C:\mp\src\tier0\;C:\\Program Files %28x86%29\MySQL\MySQL Connector C++ 1.0.5\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\mp\src\lib\public;$(DXSDK_DIR)Lib\x86;C:\mp\src\lib;C:\Users\Buxthefag\Desktop\mp\src\lib;C:\Program Files %28x86%29\MySQL\MySQL Connector C++ 1.0.5\lib;C:\Users\Buxthefag\Desktop\SDK\SQLAPI\lib;$(LibraryPath);C:\Users\Buxthefag\Desktop\boost_1_55_0\;C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.0.5\lib\opt\;C:\Users\Buxthefag\Desktop\mysql-connector-c++-8.0.12-winx64\</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>basehook</TargetName>
+    <IncludePath>C:\mp\src\common\;C:\local\boost_1_68_0\;C:\lua\;$(DXSDK_DIR)Include;C:\mp\src\public\tier1\;C:\mp\src\public\tier0\;C:\mp\src\tier1\;C:\mp\src;C:\mp\src\public;C:\mp;C:\mp\src\tier0;C:\Program Files %28x86%29\MySQL\MySQL Connector C++ 1.0.5\include\;$(IncludePath);C:\Users\Buxthefag\Desktop\boost_1_55_0\</IncludePath>
+    <LibraryPath>C:\mp\src\lib\public;$(DXSDK_DIR)Lib\x86;C:\mp\src\lib;C:\Users\Buxthefag\Desktop\mp\src\lib;C:\Program Files %28x86%29\MySQL\MySQL Connector C++ 1.0.5\lib;C:\Users\Buxthefag\Desktop\SDK\SQLAPI\lib;$(LibraryPath);C:\Users\Buxthefag\Desktop\boost_1_55_0\;C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.0.5\lib\opt\;C:\Users\Buxthefag\Desktop\mysql-connector-c++-8.0.12-winx64\</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BASEHOOK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;BASEHOOK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\D;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <StringPooling>true</StringPooling>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Aim.cpp" />
+    <ClCompile Include="AntiAim.cpp" />
+    <ClCompile Include="Backtracking.cpp" />
+    <ClCompile Include="CBasePlayer.cpp" />
+    <ClCompile Include="CDrawManager.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="contentbridge.cpp" />
+    <ClCompile Include="d3dsprite.cpp" />
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="DSDK.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameEvents.cpp" />
+    <ClCompile Include="Generals.cpp" />
+    <ClCompile Include="Glow.cpp" />
+    <ClCompile Include="InfoPanel.cpp" />
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="LagCompensation.cpp" />
+    <ClCompile Include="LibAsm.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Maths.cpp" />
+    <ClCompile Include="Menu_,cpp.cpp" />
+    <ClCompile Include="Netvars.cpp" />
+    <ClCompile Include="Panels.cpp" />
+    <ClCompile Include="CSignature.cpp" />
+    <ClCompile Include="Prediction.cpp" />
+    <ClCompile Include="projectiles.cpp" />
+    <ClCompile Include="Radar.cpp" />
+    <ClCompile Include="SDK.cpp" />
+    <ClCompile Include="SEGlow.cpp" />
+    <ClCompile Include="SSERG.cpp" />
+    <ClCompile Include="strtools.cpp" />
+    <ClCompile Include="texturemgr.cpp" />
+    <ClCompile Include="tiercloud.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="UTLDM.cpp" />
+    <ClCompile Include="UtlTrace.cpp" />
+    <ClCompile Include="Visuals.cpp" />
+    <ClCompile Include="Visuals_HL2DM.cpp" />
+    <ClCompile Include="VMTHooks.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aim.hpp" />
+    <ClInclude Include="AntiAim.hpp" />
+    <ClInclude Include="Backtracking.hpp" />
+    <ClInclude Include="baseincludes.hpp" />
+    <ClInclude Include="bsp.hpp" />
+    <ClInclude Include="CBasePlayer.hpp" />
+    <ClInclude Include="CbUtlMem.hpp" />
+    <ClInclude Include="CbUtlVec.hpp" />
+    <ClInclude Include="CDeclVec.hpp" />
+    <ClInclude Include="CDrawManager.h" />
+    <ClInclude Include="cframe.hpp" />
+    <ClInclude Include="CGlobalVars.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="client_renderable.hpp" />
+    <ClInclude Include="CNetChan.hpp" />
+    <ClInclude Include="Color.hpp" />
+    <ClInclude Include="contentbridge.hpp" />
+    <ClInclude Include="cstate.hpp" />
+    <ClInclude Include="CTrace.hpp" />
+    <ClInclude Include="d3dsprite.h" />
+    <ClInclude Include="DSDK.hpp" />
+    <ClInclude Include="EngineServer.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="GameEvents.hpp" />
+    <ClInclude Include="Generals.hpp" />
+    <ClInclude Include="getvfunc.h" />
+    <ClInclude Include="Glow.hpp" />
+    <ClInclude Include="InfoPanel.hpp" />
+    <ClInclude Include="Interfaces.hpp" />
+    <ClInclude Include="KeyMgr.hpp" />
+    <ClInclude Include="LagCompensation.hpp" />
+    <ClInclude Include="LAI.hpp" />
+    <ClInclude Include="LCache.hpp" />
+    <ClInclude Include="LibAsm.hpp" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Maths.hpp" />
+    <ClInclude Include="Menu_.hpp" />
+    <ClInclude Include="NetChannel.hpp" />
+    <ClInclude Include="NetPtr.hpp" />
+    <ClInclude Include="Netvars.hpp" />
+    <ClInclude Include="NET_API.hpp" />
+    <ClInclude Include="Panels.h" />
+    <ClInclude Include="Prediction.h" />
+    <ClInclude Include="Prediction.hpp" />
+    <ClInclude Include="Project Logs.h" />
+    <ClInclude Include="projectiles.hpp" />
+    <ClInclude Include="Radar.hpp" />
+    <ClInclude Include="resource6.h" />
+    <ClInclude Include="SDK Logs.h" />
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="CSignature.h" />
+    <ClInclude Include="SEEMgr.hpp" />
+    <ClInclude Include="SEGlow.hpp" />
+    <ClInclude Include="studiohdr.hpp" />
+    <ClInclude Include="textureholder.hpp" />
+    <ClInclude Include="texturemgr.h" />
+    <ClInclude Include="tp_angle.hpp" />
+    <ClInclude Include="Utils.hpp" />
+    <ClInclude Include="UTLDM.hpp" />
+    <ClInclude Include="UtlTrace.hpp" />
+    <ClInclude Include="Visuals.hpp" />
+    <ClInclude Include="VMTHooks.h" />
+    <ClInclude Include="VTDumps.hpp" />
+    <ClInclude Include="WeaponList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Liquid.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lena_gray.raw" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
